@@ -48,7 +48,6 @@
     ]
     ++ [
       # Required for hyprland cursor
-      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
       inputs.zen-browser.packages."${system}".default
     ];
 }
