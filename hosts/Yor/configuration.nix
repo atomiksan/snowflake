@@ -24,6 +24,9 @@
     # Import your modular Home Manager configuration:
     imports = [ ../../home.nix ];
 
+    home = {
+      backupFileExtension = "backup";
+    };
     # Optionally add more Home Manager settings here:
     # You can also set other options, e.g.:
     # home.sessionVariables = { ... };
