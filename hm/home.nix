@@ -75,10 +75,10 @@
     # EDITOR = "emacs";
   };
 
-  # imports = [
-  #   ./cli-apps
-  #   ./shell-config
-  # ];
+  imports = [
+    ./cli-apps
+    ./shell-config
+  ];
 
   programs.home-manager.enable = true;
 }
