@@ -11,5 +11,6 @@
     ./fonts.nix
     ./locales.nix
     ./networking.nix
+    ./nvidia.nix
   ];
 }
