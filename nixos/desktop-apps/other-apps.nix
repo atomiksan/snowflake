@@ -30,6 +30,7 @@
     libgcc
     mpv
     nixfmt-rfc-style
+    nix-direnv
     pavucontrol
     ripgrep
     rustup
