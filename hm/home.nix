@@ -1,4 +1,8 @@
-{ config, pkgs, ... }:
+{
+  config,
+  pkgs,
+  ...
+}:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -70,6 +74,11 @@
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
+
+  # imports = [
+  #   ./cli-apps
+  #   ./shell-config
+  # ];
 
   programs.home-manager.enable = true;
 }
