@@ -14,11 +14,15 @@
 
     # Import Home Manager's NixOS module
     inputs.home-manager.nixosModules.home-manager
+    {
+      home-manager.useGlobalPkgs = true;
+      home-manager.useUserPackages = true;
+    }
   ];
 
   home-manager.users.loid = {
     # Import your modular Home Manager configuration:
-    imports = [ ../../hm/home.nix ];
+    imports = [ ../../home.nix ];
 
     # Optionally add more Home Manager settings here:
     # You can also set other options, e.g.:

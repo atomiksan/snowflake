@@ -76,8 +76,7 @@
   };
 
   imports = [
-    ./cli-apps
-    ./shell-config
+    ./hm
   ];
 
   programs.home-manager.enable = true;
