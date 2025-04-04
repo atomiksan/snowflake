@@ -19,7 +19,7 @@
     openssl
     curl
     expat
-    libtinfo
+    #libtinfo
     gmp
     #...
   ];
