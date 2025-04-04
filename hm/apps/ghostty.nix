@@ -14,7 +14,7 @@
     installVimSyntax = true;
     settings = {
       theme = "rose-pine";
-      font-size = 13.5;
+      font-size = 12;
       background-opacity = 0.7;
     };
   };
