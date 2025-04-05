@@ -14,7 +14,7 @@
       "networkmanager"
       "wheel"
     ];
-    shell = pkgs.fish;
+    shell = pkgs.zsh;
     packages = with pkgs; [
       #  thunderbird
     ];
