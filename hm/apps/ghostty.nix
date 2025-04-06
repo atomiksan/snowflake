@@ -15,8 +15,7 @@
     settings = {
       theme = "rose-pine";
       command = "fish";
-      font-family = "Victor Mono Nerd Font";
-      font-style = "Victor Mono Nerd Font SemiBold";
+      font-family = "JetBrainsMono Nerd Font";
       font-size = 12;
       background-opacity = 0.7;
     };
