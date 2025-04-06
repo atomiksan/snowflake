@@ -14,6 +14,9 @@
     installVimSyntax = true;
     settings = {
       theme = "rose-pine";
+      command = "fish";
+      font-family = "Victor Mono Nerd Font";
+      font-style = "Victor Mono Nerd Font SemiBold";
       font-size = 12;
       background-opacity = 0.7;
     };
