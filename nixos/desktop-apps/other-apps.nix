@@ -16,9 +16,10 @@
     with pkgs;
     [
       bat
+      cmake
       discord
       direnv
-      emacs
+      emacs-gtk
       epy
       eww
       eza
@@ -35,9 +36,11 @@
       nil
       nixfmt-rfc-style
       nix-direnv
-      pavucontrol
+      nodejs
       ripgrep
       rustup
+      shfmt
+      shellcheck
       tmux
       unzip
       wget
