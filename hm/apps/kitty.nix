@@ -9,7 +9,7 @@
   programs.kitty = {
     enable = true;
     font.name = "Victor Mono Nerd Font";
-    font.size = 12;
+    font.size = 13;
     shellIntegration = {
       enableFishIntegration = true;
       enableZshIntegration = true;
