@@ -7,17 +7,16 @@
 }:
 
 {
-
   # Import the required config files here
   imports = [
     ../../nixos
 
     # Import Home Manager's NixOS module
     inputs.home-manager.nixosModules.home-manager
-    {
-      home-manager.useGlobalPkgs = true;
-      home-manager.useUserPackages = true;
-    }
+    #{
+    #  home-manager.useGlobalPkgs = true;
+    #  home-manager.useUserPackages = true;
+    #}
   ];
 
   home-manager.users.loid = {
@@ -33,6 +32,7 @@
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
+    "pipe-operators"
   ];
 
   # This value determines the NixOS release from which the default
