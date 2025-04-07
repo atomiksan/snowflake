@@ -32,7 +32,6 @@
       kitty
       libgcc
       mpv
-      nitch
       nixfmt-rfc-style
       nix-direnv
       pavucontrol
