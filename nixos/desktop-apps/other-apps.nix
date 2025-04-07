@@ -34,6 +34,7 @@
       libgcc
       mpv
       nil
+      nitch
       nixfmt-rfc-style
       nix-direnv
       nodejs
