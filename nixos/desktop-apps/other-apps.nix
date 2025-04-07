@@ -40,7 +40,6 @@
       rustup
       tmux
       unzip
-      vesktop
       wget
       wl-clipboard
       zed-editor
