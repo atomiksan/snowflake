@@ -32,6 +32,7 @@
       kitty
       libgcc
       mpv
+      nil
       nixfmt-rfc-style
       nix-direnv
       pavucontrol
@@ -39,6 +40,7 @@
       rustup
       tmux
       unzip
+      vesktop
       wget
       wl-clipboard
       zed-editor
