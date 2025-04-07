@@ -13,6 +13,7 @@
     prefix = "C-Space";
     keyMode = "vi";
     sensibleOnTop = true;
+    shell = "/etc/profiles/per-user/loid/bin/fish";
     #customPaneNavigationAndResize = false;
     extraConfig = ''
       set-option -sa terminal-overrides ",xterm*:Tc"
@@ -50,7 +51,6 @@
     mouse = true;
     newSession = true;
     baseIndex = 1;
-    shell = "/home/atomik/.nix-profile/bin/fish";
     plugins = with pkgs; [
       {
         plugin = tmuxPlugins.resurrect;
