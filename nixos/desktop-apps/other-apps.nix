@@ -29,6 +29,7 @@
       ghostty
       gnumake
       go
+      helix
       kitty
       libgcc
       mpv
@@ -45,7 +46,6 @@
       unzip
       wget
       wl-clipboard
-      zed-editor
       zls
       zoxide
       #...
