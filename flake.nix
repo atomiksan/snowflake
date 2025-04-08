@@ -9,6 +9,7 @@
       # Ensure Home Manager uses the same nixpkgs as your configuration
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nvf.url = "github:notashelf/nvf";
   };
 
   outputs =
@@ -16,6 +17,7 @@
       self,
       nixpkgs,
       home-manager,
+      nvf,
       ...
     }@inputs:
     let
@@ -26,7 +28,7 @@
     {
       nixosConfigurations = {
         Yor = lib.nixosSystem {
-          specialArgs = { inherit inputs; };
+          specialArgs = { inherit inputs nvf; };
           inherit system;
           modules = [
             ./hosts/Yor/configuration.nix
