@@ -3,7 +3,6 @@
   lib,
   pkgs,
   inputs,
-  nvf,
   ...
 }:
 
@@ -24,7 +23,7 @@
     # Import your modular Home Manager configuration:
     imports = [
       ../../home.nix
-      nvf.homeManagerModules.default
+      inputs.nvf.homeManagerModules.default
     ];
 
     # Optionally add more Home Manager settings here:
