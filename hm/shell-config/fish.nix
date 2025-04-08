@@ -12,7 +12,7 @@
       rev = "38aab5baabefea1bc7e560ba3fbdb53cb91a6186";
       sha256 = "bSGGksL/jBNqVV0cHZ8eJ03/8j3HfD9HXpDa8G/Cmi8=";
     }
-  }/themes/Rosé Pine.theme";
+  }/themes/Rosé Pine Dawn.theme";
 
   programs.fish = {
     enable = true;
@@ -23,7 +23,7 @@
       set -gx PATH (go env GOPATH)/bin $PATH
       set -gx PATH $HOME/.config/emacs/bin $PATH
       set -gx PATH $HOME/zig $PATH
-      fish_config theme choose 'Rosé Pine'
+      fish_config theme choose 'Rosé Pine Dawn'
     '';
     interactiveShellInit = ''
       set -x TERM xterm-256color
