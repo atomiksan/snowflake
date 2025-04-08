@@ -20,5 +20,9 @@
       confirm_os_window_close = 0;
       shell = "fish";
     };
+    extraConfig = ''
+      font_family family='VictorMono Nerd Font' style=SemiBold
+      text_fg_override_threshold 4.5 ratio
+    '';
   };
 }
