@@ -23,6 +23,11 @@
         binds = {
           whichKey.enable = true;
         };
+
+        navigation.harpoon = {
+          enable = true;
+        };
+
         languages = {
           enableLSP = true;
           enableTreesitter = true;
