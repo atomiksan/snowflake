@@ -28,7 +28,7 @@
     {
       nixosConfigurations = {
         Yor = lib.nixosSystem {
-          specialArgs = { inherit inputs nvf; };
+          specialArgs = { inherit inputs; };
           inherit system;
           modules = [
             ./hosts/Yor/configuration.nix
