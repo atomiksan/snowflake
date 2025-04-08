@@ -3,6 +3,7 @@
   lib,
   pkgs,
   inputs,
+  nvf,
   ...
 }:
 
@@ -21,7 +22,10 @@
 
   home-manager.users.loid = {
     # Import your modular Home Manager configuration:
-    imports = [ ../../home.nix ];
+    imports = [
+      ../../home.nix
+      nvf.homeManagerModules.default
+    ];
 
     # Optionally add more Home Manager settings here:
     # You can also set other options, e.g.:
