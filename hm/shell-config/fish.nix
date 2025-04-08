@@ -5,7 +5,7 @@
 }:
 
 {
-  xdg.configFile."fish/themes/Rosé Pine.theme".source = "${
+  xdg.configFile."fish/themes/Rosé Pine Dawn.theme".source = "${
     pkgs.fetchFromGitHub {
       owner = "rose-pine";
       repo = "fish";
