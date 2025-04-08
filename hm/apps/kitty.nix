@@ -14,7 +14,7 @@
       enableFishIntegration = true;
       enableZshIntegration = true;
     };
-    themeFile = "rose-pine";
+    themeFile = "rose-pine-dawn";
     settings = {
       background_opacity = 0.7;
       confirm_os_window_close = 0;
