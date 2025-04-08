@@ -9,5 +9,6 @@
     ./apps
     ./cli-apps
     ./shell-config
+    ./nvf
   ];
 }
