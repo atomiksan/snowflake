@@ -8,14 +8,21 @@
   programs.nvf = {
     enable = true;
     settings = {
-      vim = {
-        vimALias = true;
-     
+      vim = { 
         theme = {
           enable = true;
-          name = "rose-pine-dawn";
+          name = "rose-pine";
+          style = "dawn";
         };
-
+        
+        options = {
+          shiftwidth = 4;
+          tabstop = 4;
+        };
+        
+        binds = {
+          whichKey.enable = true;
+        };
         languages = {
           enableLSP = true;
           enableTreesitter = true;
@@ -26,7 +33,12 @@
           python.enable = true;
         };
         
-        statusline.lualine.enable = true;
+        utility = {
+          oil-nvim.enable = true;
+        };
+        
+        autopairs.nvim-autopairs.enable = true;
+        statusline.mini.enable = true;
         telescope.enable = true;
         autocomplete.nvim-cmp.enable = true;
         formatter.conform-nvim.enable = true;
