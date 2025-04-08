@@ -38,7 +38,7 @@
         };
         
         autopairs.nvim-autopairs.enable = true;
-        statusline.mini.enable = true;
+        mini.statusline.enable = true;
         telescope.enable = true;
         autocomplete.nvim-cmp.enable = true;
         formatter.conform-nvim.enable = true;
