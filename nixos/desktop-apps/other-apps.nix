@@ -18,7 +18,6 @@
       bat
       cmake
       discord
-      direnv
       emacs-gtk
       epy
       eww
@@ -35,8 +34,8 @@
       mpv
       nil
       nitch
+      nix-index
       nixfmt-rfc-style
-      nix-direnv
       nodejs
       ripgrep
       rustup
