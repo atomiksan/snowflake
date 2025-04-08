@@ -17,7 +17,7 @@
       command = "fish";
       font-family = "JetBrainsMono Nerd Font";
       font-size = 12;
-      background-opacity = 0.7;
+      background-opacity = 0.85;
     };
   };
 }
