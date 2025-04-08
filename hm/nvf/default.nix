@@ -7,5 +7,5 @@
 {
   imports = [
     ./nvf-config.nix
-  ]
+  ];
 }
