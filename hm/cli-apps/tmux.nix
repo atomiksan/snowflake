@@ -52,6 +52,9 @@
     newSession = true;
     baseIndex = 1;
     plugins = with pkgs; [
+      tmuxPlugins.yank
+      tmuxPlugins.cpu
+      tmuxPlugins.battery
       {
         plugin = tmuxPlugins.resurrect;
         extraConfig = "set -g @resurrect-strategy-nvim 'session'";
@@ -78,9 +81,6 @@
           set -agF status-right "#{E:@catppuccin_status_battery}"
         '';
       }
-      tmuxPlugins.yank
-      tmuxPlugins.cpu
-      tmuxPlugins.battery
       {
         plugin = tmuxPlugins.vim-tmux-navigator;
         extraConfig = ''
