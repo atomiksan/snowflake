@@ -31,6 +31,7 @@
           modules = [
             ./hosts/Yor/configuration.nix
             ./hosts/Yor/hardware-configuration.nix
+            { nix.nixPath = [ "nixpkgs=${nixpkgs}" ]; }
           ];
         };
       };
