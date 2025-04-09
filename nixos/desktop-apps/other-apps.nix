@@ -18,9 +18,9 @@
       bat
       cmake
       discord
+      dunst
       emacs-gtk
       epy
-      eww
       eza
       fd
       fzf
@@ -29,24 +29,26 @@
       ghostty
       gnumake
       go
-      helix
+      hyprpaper
+      hyprcursor
       kitty
       libgcc
+      libnotify
       lazygit
       mpv
       nil
       nitch
-      #nix-index
+      nix-index
       nixfmt-rfc-style
       nodejs
       ripgrep
+      rofi-wayland
       rustup
-      shfmt
-      shellcheck
       tmux
       unzip
       wget
       wl-clipboard
+      yazi
       zls
       zoxide
       #...
@@ -54,5 +56,6 @@
     ++ [
       # Required for hyprland cursor
       inputs.zen-browser.packages."${system}".default
+      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
     ];
 }
