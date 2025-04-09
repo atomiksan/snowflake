@@ -10,7 +10,7 @@
     ./fzf.nix
     ./git.nix
     ./direnv.nix
-    ./nix-index.nix
+    #./nix-index.nix
     ./omp.nix
     ./starship.nix
     ./tmux.nix

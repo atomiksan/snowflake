@@ -36,7 +36,7 @@
       mpv
       nil
       nitch
-      nix-index
+      #nix-index
       nixfmt-rfc-style
       nodejs
       ripgrep
