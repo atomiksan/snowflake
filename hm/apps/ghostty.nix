@@ -16,7 +16,7 @@
       theme = "rose-pine-dawn";
       command = "fish";
       font-family = "JetBrainsMono Nerd Font";
-      font-size = 12;
+      font-size = 14;
       background-opacity = 0.85;
     };
   };
