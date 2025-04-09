@@ -29,12 +29,13 @@
       set -x TERM xterm-256color
     '';
     shellAliases = {
-      ll = "eza -l --icons --no-permissions";
+      ll = "eza -l --icons";
       ls = "eza --icons";
       tree = "eza -T --icons";
       la = "eza -la --icons";
       lo = "eza -l -o --icons";
       vim = "nvim";
+      tmux = "tmux -u";
     };
     shellInitLast = ''
       fzf --fish | source

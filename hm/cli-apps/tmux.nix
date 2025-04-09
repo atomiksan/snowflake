@@ -8,12 +8,12 @@
   # Tmux config
   programs.tmux = {
     enable = true;
-    terminal = "tmux-256color";
+    terminal = "xterm-256color";
     escapeTime = 10;
     prefix = "C-Space";
     keyMode = "vi";
     sensibleOnTop = true;
-    shell = "/etc/profiles/per-user/loid/bin/fish";
+    shell = "~/.nix-profile/bin/fish";
     #customPaneNavigationAndResize = false;
     extraConfig = ''
       set-option -sa terminal-overrides ",xterm*:Tc"
@@ -64,19 +64,22 @@
         '';
       }
       {
-        plugin = tmuxPlugins.tokyo-night-tmux;
+        plugin = tmuxPlugins.catppuccin;
         extraConfig = ''
-          set -g @tokyo-night-tmux_show_path 1
-          set -g @tokyo-night-tmux_path_format relative
-          set -g @tokyo-night-tmux_window_id_style roman
-          set -g @tokyo-night-tmux_pane_id_style hsquare
-          set -g @tokyo-night-tmux_zoom_id_style dsquare
-          set -g @tokyo-night-tmux_show_datetime 0
-          set -g @tokyo-night-tmux_show_git 0
-          set -g @tokyo-night-tmux_transparent 1
+          set -g @catppuccin_flavor 'latte'
+          set -g @catppuccin_window_status_style "rounded"
+          set -g status-right-length 100
+          set -g status-left-length 100
+          set -g status-left ""
+          set -g status-right "#{E:@catppuccin_status_application}"
+          set -agF status-right "#{E:@catppuccin_status_cpu}"
+          set -ag status-right "#{E:@catppuccin_status_session}"
+          set -ag status-right "#{E:@catppuccin_status_uptime}"
+          set -agF status-right "#{E:@catppuccin_status_battery}"
         '';
       }
       tmuxPlugins.yank
+      tmuxPlugins.cpu
       tmuxPlugins.battery
       {
         plugin = tmuxPlugins.vim-tmux-navigator;
@@ -88,15 +91,6 @@
           set -g @vim_navigator_mapping_prev ""  # removes the C-\ binding
         '';
       }
-      # {
-      #   plugin = tmuxPlugins.rose-pine;
-      #   extraConfig = ''
-      #     set -g @rose_pine_variant 'main'
-      #     set -g @rose_pine_user 'on'
-      #     set -g @rose_pine_bar_bg_disable 'on'
-      #     set -g @rose_pine_bar_bg_disabled_color_option 'default'
-      #   '';
-      # }
       {
         plugin = tmuxPlugins.online-status;
         extraConfig = ''
