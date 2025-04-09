@@ -44,6 +44,7 @@
       ripgrep
       rofi-wayland
       rustup
+      swww
       tmux
       unzip
       wget
