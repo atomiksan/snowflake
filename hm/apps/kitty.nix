@@ -22,7 +22,7 @@
     };
     extraConfig = ''
       font_family family='VictorMono Nerd Font' style=SemiBold
-      text_fg_override_threshold 4.5 ratio
+      #text_fg_override_threshold 4.5 ratio
     '';
   };
 }
