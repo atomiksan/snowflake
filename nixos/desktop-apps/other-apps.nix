@@ -32,6 +32,7 @@
       helix
       kitty
       libgcc
+      lazygit
       mpv
       nil
       nitch
