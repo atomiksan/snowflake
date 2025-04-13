@@ -16,7 +16,6 @@
     with pkgs;
     [
       bat
-      cmake
       discord
       dunst
       emacs-gtk
@@ -29,7 +28,6 @@
       ghostty
       gnumake
       go
-      glib
       hyprpaper
       hyprcursor
       kitty
