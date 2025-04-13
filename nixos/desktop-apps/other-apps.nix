@@ -29,6 +29,7 @@
       ghostty
       gnumake
       go
+      glib
       hyprpaper
       hyprcursor
       kitty
