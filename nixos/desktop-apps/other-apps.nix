@@ -47,7 +47,6 @@
       wget
       wl-clipboard
       yazi
-      zls
       zoxide
       #...
     ]
