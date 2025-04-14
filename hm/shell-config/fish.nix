@@ -22,7 +22,7 @@
       set -gx PATH $HOME/.local/bin $PATH
       set -gx PATH (go env GOPATH)/bin $PATH
       set -gx PATH $HOME/.config/emacs/bin $PATH
-      set -gx PATH $HOME/zig $PATH
+      #set -gx PATH $HOME/zig $PATH
       fish_config theme choose 'Rosé Pine Dawn'
     '';
     interactiveShellInit = ''

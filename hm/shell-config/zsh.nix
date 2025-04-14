@@ -22,7 +22,7 @@
       export GPG_TTY=$(tty)
       export PATH=$HOME/.config/emacs/bin:$PATH
       export PATH=$(go env GOPATH)/bin:$PATH
-      export PATH=$HOME/zig:$PATH
+      #export PATH=$HOME/zig:$PATH
     '';
     completionInit = ''
       autoload -U compinit && compinit
