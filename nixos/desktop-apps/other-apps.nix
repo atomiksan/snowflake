@@ -24,9 +24,7 @@
       fd
       fzf
       fastfetch
-      gcc_multi
       ghostty
-      gnumake
       go
       hyprpaper
       hyprcursor
