@@ -18,7 +18,7 @@
       bat
       discord
       dunst
-      emacs-gtk
+      emacs-pgtk
       epy
       eza
       fd
