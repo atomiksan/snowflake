@@ -13,7 +13,7 @@
     installBatSyntax = true;
     installVimSyntax = true;
     settings = {
-      theme = "rose-pine-dawn";
+      theme = "rose-pine";
       command = "fish";
       font-family = "JetBrainsMono Nerd Font";
       font-size = 14;
