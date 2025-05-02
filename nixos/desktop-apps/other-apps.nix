@@ -24,6 +24,7 @@
       fd
       fzf
       fastfetch
+      gcc
       ghostty
       go
       hyprpaper
