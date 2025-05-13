@@ -42,6 +42,7 @@
       ripgrep
       rofi-wayland
       rustup
+      spyder
       swww
       tmux
       unzip
