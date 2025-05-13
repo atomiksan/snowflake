@@ -42,10 +42,10 @@
       ripgrep
       rofi-wayland
       rustup
-      spyder
       swww
       tmux
       unzip
+      vscode
       wget
       wl-clipboard
       yazi
