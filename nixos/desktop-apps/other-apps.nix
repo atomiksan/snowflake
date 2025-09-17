@@ -47,7 +47,7 @@
       nixfmt-rfc-style
       nodejs
       ripgrep
-      rofi-wayland
+      rofi
       rustup
       swww
       tmux
