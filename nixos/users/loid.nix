@@ -13,10 +13,12 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "libvirtd"
+      "docker"
     ];
     shell = pkgs.zsh;
     packages = with pkgs; [
       #  thunderbird
     ];
-  };
-}
+   };
+  }
