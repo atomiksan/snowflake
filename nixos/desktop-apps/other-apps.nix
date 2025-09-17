@@ -9,6 +9,12 @@
 {
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+
+  virtualisation.docker = {
+    enable = true;
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -29,6 +35,7 @@
       go
       hyprpaper
       hyprcursor
+      kdePackages.dolphin
       kitty
       libgcc
       libnotify
