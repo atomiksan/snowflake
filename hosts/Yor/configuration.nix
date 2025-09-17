@@ -13,6 +13,7 @@
 
     # Import Home Manager's NixOS module
     inputs.home-manager.nixosModules.home-manager
+    inputs.nix-index-database.nixosModules.nix-index
     #{
     #  home-manager.useGlobalPkgs = true;
     #  home-manager.useUserPackages = true;
