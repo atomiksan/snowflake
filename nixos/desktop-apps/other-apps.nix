@@ -50,6 +50,7 @@
       wget
       wl-clipboard
       yazi
+      zig
       zoxide
       #...
     ]
