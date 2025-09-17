@@ -11,6 +11,7 @@
     ./cups.nix
     ./audio.nix
     ./emacs.nix
+    ./virtualization.nix
     ./xserver.nix
   ];
 }
