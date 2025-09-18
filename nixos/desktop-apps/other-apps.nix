@@ -16,7 +16,6 @@
     with pkgs;
     [
       bat
-      bluez
       discord
       dunst
       emacs-pgtk
