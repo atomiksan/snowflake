@@ -63,6 +63,7 @@
       TERM = "xterm-256color";
     };
     shellAliases = {
+      cat = "bat";
       ll = "eza -l --icons --no-permissions";
       ls = "eza --icons";
       tree = "eza -T --icons";

@@ -29,6 +29,7 @@
       set -x TERM xterm-256color
     '';
     shellAliases = {
+      cat = "bat";
       ll = "eza -l --icons";
       ls = "eza --icons";
       tree = "eza -T --icons";
