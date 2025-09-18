@@ -16,7 +16,6 @@
     with pkgs;
     [
       bat
-      bluetoothctl
       discord
       dunst
       emacs-pgtk
