@@ -12,6 +12,7 @@
     ./audio.nix
     ./bluetooth.nix
     ./emacs.nix
+    ./nfs.nix
     ./virtualization.nix
     ./xserver.nix
   ];
