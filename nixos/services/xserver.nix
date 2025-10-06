@@ -18,14 +18,14 @@
   #services.desktopManager.plasma6.enable = true;
 
   services.greetd = {
-     enable = true;
-     settings = {
-       default_session = {
-          command = "${pkgs.tuigreet}/bin/tuigreet --cmd Hyprland";
-	  user = "loid";
-       };
-     };
-   };
+    enable = true;
+    settings = {
+      default_session = {
+        command = "${pkgs.tuigreet}/bin/tuigreet --cmd Hyprland";
+        user = "loid";
+      };
+    };
+  };
 
   # Configure keymap in X11
   services.xserver.xkb = {
