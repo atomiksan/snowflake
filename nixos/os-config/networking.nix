@@ -13,7 +13,7 @@
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
   networking.extraHosts = ''
-    192.168.122.130 gitlab.example.com
+    192.168.122.216 gitlab.example.com
   '';
 
   # Enable networking
