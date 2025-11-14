@@ -55,7 +55,7 @@
     ]
     ++ [
       # Required for hyprland cursor
-      inputs.zen-browser.packages."${system}".default
-      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
+      inputs.zen-browser.packages."${stdenv.hostPlatform.system}".default
+      inputs.rose-pine-hyprcursor.packages.${pkgs.stdenv.hostPlatform.system}.default
     ];
 }
