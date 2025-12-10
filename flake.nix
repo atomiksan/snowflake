@@ -14,7 +14,7 @@
       url = "github:nix-community/nix-index-database";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    inputs.awww.url = "git+https://codeberg.org/LGFae/awww";
+    awww.url = "git+https://codeberg.org/LGFae/awww";
   };
 
   outputs =
