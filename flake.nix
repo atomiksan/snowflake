@@ -10,10 +10,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     rose-pine-hyprcursor.url = "github:ndom91/rose-pine-hyprcursor";
-    nix-index-database = { 
+    nix-index-database = {
       url = "github:nix-community/nix-index-database";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    inputs.awww.url = "git+https://codeberg.org/LGFae/awww";
   };
 
   outputs =
