@@ -1,6 +1,5 @@
-result
-installer-rs/target/
+result/
 __pycache__/
 *.pyc
-
-assets/wallpapers/Einsamer_Raum.jpg
+.agents/
+.direnv/
