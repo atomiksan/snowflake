@@ -1,6 +1,8 @@
-result
-installer-rs/target/
+result/
 __pycache__/
 *.pyc
+.direnv/
 
-assets/wallpapers/Einsamer_Raum.jpg
+# Ignore all wallpapers except rose pine fractal
+assets/wallpapers/*
+!assets/wallpapers/rose-pine-fractal.jpg
